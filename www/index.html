@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+		<link rel="stylesheet" href="css/estilos.css">
+		<script type="text/javascript" src="js/funciones.js"></script>
+        <title>CENTELSA</title>
+    </head>
+    <body>
+		<div class="screen-menu" id="screen-menu">
+			<div class="cabecera">
+				<div class="cerrar-menu" ontouch="ocultarScreen('screen-menu')"></div>
+				<div class="contenedor-logo">
+					<div class="logo"></div>
+				</div>
+			</div>
+			<div class="opciones">
+				<div class="opcion" ontouch="mostrarScreen('screen-seccion')">
+					<div class="texto">Opción 1</div>
+				</div>
+				<div class="opcion" ontouch="mostrarScreen('screen-seccion')">
+					<div class="texto">Opción 2</div>
+				</div>
+				<div class="opcion" ontouch="mostrarScreen('screen-seccion')">
+					<div class="texto">Opción 3</div>
+				</div>
+				<div class="opcion" ontouch="mostrarScreen('screen-seccion')">
+					<div class="texto">Opción 4</div>
+				</div>
+				<div class="opcion" ontouch="mostrarScreen('screen-seccion')">
+					<div class="texto">Opción 5</div>
+				</div>
+			</div>
+		</div>
+		<div class="screen-ppal">
+			<div class="cabecera">
+				<div class="boton-menu" ontouch="mostrarScreen('screen-menu')"></div>
+				<div class="contenedor-logo">
+					<div class="logo"></div>
+				</div>				
+			</div>
+			<div class="cuerpo">
+				<div class="opciones">
+					<div class="opcion" ontouch="mostrarScreen('screen-seccion')">
+						<div class="texto">Opción 1</div>
+					</div>
+					<div class="opcion" ontouch="mostrarScreen('screen-seccion')">
+						<div class="texto">Opción 2</div>
+					</div>
+					<div class="opcion" ontouch="mostrarScreen('screen-seccion')">
+						<div class="texto">Opción 3</div>
+					</div>
+					<div class="opcion" ontouch="mostrarScreen('screen-seccion')">
+						<div class="texto">Opción 4</div>
+					</div>
+					<div class="opcion" ontouch="mostrarScreen('screen-seccion')">
+						<div class="texto">Opción 5</div>
+					</div>
+				</div>
+			</div>
+			<div class="pie">
+			
+			</div>
+		</div>
+		<div class="screen-seccion" id="screen-seccion">
+			<div class="cabecera">
+				<div class="boton-atras" ontouch="ocultarScreen('screen-seccion')"></div>
+				<div class="contenedor-titulo">
+					<div class="titulo">Sección</div>
+				</div>				
+			</div>
+			<div class="cuerpo">
+			
+			</div>
+			<div class="pie">
+			
+			</div>
+		</div>
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>
